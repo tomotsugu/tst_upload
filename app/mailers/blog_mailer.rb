@@ -4,6 +4,6 @@ class BlogMailer < ApplicationMailer
     puts user.email
    @user = user
    @blog = blog
-   mail to: @user.email, subject: "Blog作成確認メール"
+   mail to: @user.email, subject: "Blog作成確認メール送信"
   end
 end
