@@ -11,4 +11,16 @@ class User < ApplicationRecord
   has_many :favorites, dependent: :destroy
   has_many :favorite_blogs, through: :favorites, source: :blog
 
+  mount_uploader :image, ImageUploader
+  
+  # userオブジェクトから呼び出せるインスタンスメソッドとして定義
+  def set_image(file)
+    if !file.nil?
+      file_name = file.original_filename
+      File.open("public/user_images/#{file_name}", 'wb') { |f|
+        f.write(file.read)
+      }
+      self.image = file_name
+    end
+  end
 end

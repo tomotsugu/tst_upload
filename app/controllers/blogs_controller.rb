@@ -69,7 +69,7 @@ class BlogsController < ApplicationController
     end
 
     def blog_params
-      params.require(:blog).permit(:title, :content)
+      params.require(:blog).permit(:title, :content, :image)
     end
     def check_login
       if !logged_in? 

@@ -1,0 +1,12 @@
+ id |   name    |          email           |                       password_digest                        |         created_at         |         updated_at         | blog_id 
+----+-----------+--------------------------+--------------------------------------------------------------+----------------------------+----------------------------+---------
+  1 | test      | test@test.jp             | $2a$10$9UyE4OyFBVHqip42r.1wouzGDyCLMq.6tNIXGH1S1gabaxehNPNWe | 2018-02-10 15:32:02.509156 | 2018-02-10 15:32:02.509156 |        
+  3 | test      | ddd@ddd.jp               | $2a$10$19SFo8PJVSSBFJclW92CH.GNJPQ2KKU6QhXrBPW4TttXloPDiOO2y | 2018-02-11 01:04:32.495989 | 2018-02-11 01:04:32.495989 |        
+  4 | katsunuma | katsunuma@sola-a.jp      | $2a$10$vbj5xTs5wgL87IjnX7L/xexvsm4CqNfZ8O98UzltHjXGB8KVM/5cC | 2018-02-17 14:30:32.655971 | 2018-02-17 14:30:32.655971 |        
+  5 | 勝沼      | salem55.tk@gmail.com     | $2a$10$gx5st3H.4x9EvPlLJI7Voev.lXygSODqARwBF0bL98h8Hy5F3Wari | 2018-02-17 14:32:52.954156 | 2018-02-17 14:32:52.954156 |        
+  6 | osawa     | kengo9990@gmail.com      | $2a$10$R3THy70QgZ4NQOAI5fmoeu4poU1m/xgJMUwtK3AV5fdlGdKyCLOz2 | 2018-02-18 01:11:43.385277 | 2018-02-18 01:11:43.385277 |        
+  7 | tanaka    | tanaka@gmail.com         | $2a$10$KZBkAeqAZ6OYtgnYp1vDbO77aMyCYbtLEjVcl7NK9KcKLRuRiPloG | 2018-02-18 01:15:15.328488 | 2018-02-18 01:15:15.328488 |        
+ 10 | kiseki    | kiseki@kiseki.com        | $2a$10$.TbxHYTLRm1fMhvIlV5fbuKNiNTKKP/2uXUhtoD3RYUdjj7DFNNNq | 2018-02-24 02:45:00.102261 | 2018-02-24 02:45:00.102261 |        
+ 11 | test      | kobayashitadao@gmail.com | $2a$10$20ZIq7Lwl6qcevg2Pn5tleoU7lwHAsTCu2WZEH5d6Bd1rkbi5rIKi | 2018-02-24 08:07:50.457776 | 2018-02-24 08:07:50.457776 |        
+(8 rows)
+

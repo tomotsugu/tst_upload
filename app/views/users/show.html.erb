@@ -2,6 +2,11 @@
 <div class="ippan">
   <p>メールアドレス: <%= @user.email %></p>
   
+  <p>
+    <strong>Image:</strong>
+    <%= image_tag @user.image %>
+  </p>
+
   <div class="container">
     <div class="row">
       <% @favorites_blogs.each do |blog| %>

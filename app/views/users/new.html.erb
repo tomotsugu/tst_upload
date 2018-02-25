@@ -12,7 +12,7 @@
 <% end %>
 
 <div class="ippan">
-<%= form_with(model: @user, local: true) do |f| %>  
+<%= form_with(model: @user, local: true) do |f| %> 
   <%= f.label :name %>
   <%= f.text_field :name %>
   <br>
@@ -24,6 +24,10 @@
   <br>
   <%= f.label :password_confirmation %>
   <%= f.password_field :password_confirmation %>
+  <br>
+  <%= f.label :image %>
+  <%= f.file_field :image %>
+  <%= f.hidden_field :image_cache %>
   <br>
   <%= f.submit "Create my account" %>
 <% end %>

@@ -5,6 +5,9 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'carrierwave'
+gem 'mini_magick'
+
 group :development do
   gem 'letter_opener_web'
 end
